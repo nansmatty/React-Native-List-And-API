@@ -16,7 +16,6 @@ const FlatListScreen = () => {
 
   return (
     <View style={styles.sectionContainer}>
-      <Text style={styles.sectionTitle}>Flat List</Text>
       <FlatList
         ListHeaderComponent={
           <Text style={styles.flatListHeader}>FlatList Header</Text>
@@ -44,17 +43,15 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   itemView: {
-    height: 100,
-    flex: 1,
-    padding: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: 20,
+    backgroundColor: '#f9c2ff',
+    padding: 20,
+    marginVertical: 15,
   },
 
   itemText: {
     fontSize: 16,
     fontWeight: 'bold',
+    textAlign: 'center',
   },
 
   flatListHeader: {
