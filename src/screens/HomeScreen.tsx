@@ -21,6 +21,11 @@ const topics = [
     title: 'Section List',
     screen: 'SectionList',
   },
+  {
+    id: 3,
+    title: 'Touchable And Pressable',
+    screen: 'TouchableAndPressable',
+  },
 ];
 
 const HomeScreen: React.FC<Props> = ({navigation}) => {
