@@ -31,6 +31,11 @@ const topics = [
     title: 'Modal',
     screen: 'Modal',
   },
+  {
+    id: 5,
+    title: 'Pull To Refresh',
+    screen: 'PullToRefresh',
+  },
 ];
 
 const HomeScreen: React.FC<Props> = ({navigation}) => {
