@@ -19,13 +19,13 @@ const api = axios.create({
 
 // Request Interceptor
 api.interceptors.request.use(config => {
-  console.log('Request Interceptor: ', config);
+  // console.log('Request Interceptor: ', config);
   return config;
 });
 
 // Response Interceptor
 api.interceptors.response.use(response => {
-  console.log('Response Interceptor: ', response);
+  // console.log('Response Interceptor: ', response);
   return response;
 });
 

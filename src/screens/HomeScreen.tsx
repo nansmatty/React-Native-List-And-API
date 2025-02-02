@@ -46,6 +46,11 @@ const topics = [
     title: 'Axios',
     screen: 'Axios',
   },
+  {
+    id: 8,
+    title: 'Theme',
+    screen: 'Theme',
+  },
 ];
 
 const HomeScreen: React.FC<Props> = ({navigation}) => {
