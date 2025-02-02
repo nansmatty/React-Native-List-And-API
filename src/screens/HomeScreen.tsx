@@ -36,6 +36,16 @@ const topics = [
     title: 'Pull To Refresh',
     screen: 'PullToRefresh',
   },
+  {
+    id: 6,
+    title: 'Data Fetching',
+    screen: 'DataFetching',
+  },
+  {
+    id: 7,
+    title: 'Axios',
+    screen: 'Axios',
+  },
 ];
 
 const HomeScreen: React.FC<Props> = ({navigation}) => {
